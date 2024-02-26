@@ -1,0 +1,115 @@
+*::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
+.nava {
+  background-color: #b33a0e;
+}
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 15px;
+  scroll-behavior: smooth;
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.background1 {
+  transform: translateZ(-15px) scale(2.1);
+}
+.background2 {
+  transform: translateZ(-10px) scale(1.7);
+}
+.background3 {
+  transform: translateZ(-5px) scale(1.4);
+  z-index: 100;
+}
+
+.background1,
+.background2,
+.background3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.title {
+  font-size: 6rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px black;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transform: translateZ(-7px) scale(1.5);
+}
+section {
+  background-color: black;
+  color: white;
+}
+section p {
+  text-align: center;
+}
+.bb {
+  font-weight: 800;
+}
+.bb1 {
+  font-weight: 600;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.cc img {
+  width: 100%;
+  height: 300px;
+}
+.smm {
+  border: 2px solid rgb(164, 14, 14);
+}
+.head1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 70px;
+  color: #ff917a;
+}
+.co h5 {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+.curim {
+  width: 100%;
+  height: 600px;
+}
+.rh1 {
+  font-size: 50px;
+  font-family: "DM Serif Display", serif;
+}
+.cc1 {
+  color: #623e2a;
+}
+.imm img {
+  width: 100%;
+}
+.image-holder {
+  opacity: 0.9;
+}
+.bann {
+  background: 
+  /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(33, 32, 32, 0.558),
+      rgba(20, 19, 19, 0.515)
+    ),
+    /* bottom, image */ url(./images/bgggg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
